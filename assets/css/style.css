@@ -1230,3 +1230,52 @@ section {
 #footer .credits {
   font-size: 13px;
 }
+
+
+/*** CSS Styles ***/
+#resources {
+  max-width: 80%;
+  margin: 5px auto;
+}
+#resources p {
+  margin-bottom: 5px;
+}
+#resources a {
+  margin-bottom: 10px;
+}
+
+#videos {
+  max-width: 80%;
+  margin: 5px auto;
+  margin-bottom: 50px;
+}
+#videos .row{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+@media (max-width: 768px) {
+  #videos .row{
+    justify-content: center;
+  }
+}
+
+#videos video {
+  border-radius: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+#videos figure{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+#videos figcaption {
+  color: grey;
+  font-size: 14px;
+}
